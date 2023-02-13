@@ -59,8 +59,9 @@ public class Object2d extends ShaderProgram {
         //GL_TRIANGLES
         //GL_TRIANGLES_FAN
         //GL_POINT
-        glDrawArrays(GL_LINE_LOOP, 0, vertices.size()); //Mengatur custom/tipe seperti apa, kalau garis: GL_Line, kalau segitiga GL_Triangle
+        //glDrawArrays(GL_LINE_LOOP, 0, vertices.size()); //Mengatur custom/tipe seperti apa, kalau garis: GL_Line, kalau segitiga GL_Triangle
         //First disini berarti index pertama kita menggambar titik tersebut
         //Nah kalau ingin menentukan banyak titik, pakai vertices.size(): untuk menggambar semua, kalau cuma mau gambar 2 titik, ketik angka 2
+        glDrawArrays(GL_TRIANGLES, 0, vertices.size());
     }
 }
