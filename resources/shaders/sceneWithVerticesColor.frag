@@ -2,6 +2,7 @@
 
 out vec4 fragColor;
 uniform vec4 uni_color;
+in vec4 out_color;
 //Buat mewarnai garis/titik di layar
 void main() {
     //    fragColor = uni_color;

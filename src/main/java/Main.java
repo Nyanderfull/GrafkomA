@@ -2,6 +2,7 @@ import Engine.Object2d;
 import Engine.ShaderProgram;
 import Engine.Window;
 import org.joml.Vector3f;
+import org.joml.Vector4f;
 import org.lwjgl.opengl.GL;
 
 import java.util.ArrayList;
@@ -35,7 +36,8 @@ public class Main {
                                 new Vector3f(-0.5f, -0.5f, 0.0f),
                                 new Vector3f(0.5f, -0.5f, 0.0f)
                         )
-                )
+                ),
+                new Vector4f(0.0f, 1.0f, 1.0f, 1.0f)
         ));
     }
 

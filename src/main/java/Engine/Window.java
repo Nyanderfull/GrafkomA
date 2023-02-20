@@ -122,6 +122,4 @@ public class Window {
     public boolean isKeyPressed(int keyCode) {
         return glfwGetKey(window, keyCode) == GLFW_PRESS;
     }
-
-
 }
